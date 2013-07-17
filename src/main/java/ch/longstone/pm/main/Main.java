@@ -18,6 +18,8 @@ public class Main {
 	 */
 	public static void main(String[] args) throws IOException {
 		Parser p = new Parser();
+		
+		
 		DefaultHttpClient httpClient = new DefaultHttpClient();
 		System.out.println("Laden der Startseite:");
 		FlowManager.getFrontpage(httpClient, HOME);
