@@ -15,8 +15,6 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 
-import ch.longstone.pm.credentials.Creds;
-
 public class PowerMatrixConnection {
 	DefaultHttpClient httpClient;
 	String cookie;
